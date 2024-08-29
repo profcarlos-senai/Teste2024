@@ -5,8 +5,13 @@ public class ContaBancaria {
         saldo = 0; // TODO: testar se a conta inicializa com saldo zero
     }
 
+    /**
+     * Deposita um valor na conta
+     * @param valor o valor a ser depositado
+     * @throws IllegalArgumentException caso o valor seja negativo
+     */
     public void depositar(double valor){
-        if(valor < 0){ // fixme
+        if(valor < 0){ //
             throw new IllegalArgumentException("Depósito com saldo negativo");
             // TODO: testar deposito negativo
         }
