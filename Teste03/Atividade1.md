@@ -14,4 +14,11 @@ IMC = PESO / (ALTURA*ALTURA)
 MIN = 19*(ALTURA*ALTURA)
 MAX = 25*(ALTURA*ALTURA)
 ALTURA RECOMENDÁVEL = Math.sqrt(peso/22)
-```   
+```
+
+### O que testar
+
+- Se consegue criar a classe (se não é nulo)
+- Se o cálculo do IMC está correto (se é igual)
+- Se o min e max e altura estão corretos (se é igual)
+- Se classifica corretamente (pelo menos três assertivas se é igual)
