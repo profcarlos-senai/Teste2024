@@ -41,4 +41,12 @@ public class Triangulo {
     public double getPerimetro(){
         return getA()+getB()+getC();
     }
+
+    public double getArea(){
+        // Calcula o semiperímetro
+        double s = (a + b + c) / 2;
+
+        // Calcula a área usando a Fórmula de Herão
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    }
 }

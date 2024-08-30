@@ -63,5 +63,14 @@ public class TrianguloTest {
         assertEquals(12.0, xuxu.getPerimetro(), "Perímetro deverial ser 12");
     }
 
+    @Test
+    /**
+     * Testa a área
+     */
+    void testaArea(){
+        var tri = new Triangulo(2,3,4);
+        assertEquals(2.90474, tri.getArea(), 0.001);
+    }
+
 
 }
