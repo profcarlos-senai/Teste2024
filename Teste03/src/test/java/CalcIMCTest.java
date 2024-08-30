@@ -12,6 +12,7 @@ public class CalcIMCTest {
         calc = new CalcIMC(1.70,60);
         assertNotNull(calc);
 
+
         assertEquals(1.70, calc.getAltura());
         assertEquals(60, calc.getPeso());
     }
