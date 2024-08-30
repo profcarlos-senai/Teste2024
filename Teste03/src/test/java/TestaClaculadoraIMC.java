@@ -36,7 +36,6 @@ public class TestaClaculadoraIMC {
         Assertions.assertEquals("normal", imc.getDescrIMC());
     }
 
-
     @Test
     void DescricaoFofinho() {
         CalcIMC imc = new CalcIMC(2, 800);

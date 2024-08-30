@@ -37,7 +37,6 @@ public class CalcIMC {
     }
 
 
-
     public double getAlturaSaudavel() {
         return Math.sqrt(peso / 22);
 
