@@ -1,4 +1,6 @@
-### **Exercício**
+void CriarTriangulo(){
+Triangulo trilegal = new Triangulo(2.0,3.0,4.0);
+Assertions.assertNotNull(trilegal);### **Exercício**
 
 Crie uma classe `CalcIMC()`, que tenha um construtor que
 receba `altura` e `peso` (double), uma função `getIMC()`
