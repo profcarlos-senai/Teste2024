@@ -17,7 +17,6 @@ public class TestaCalcIMC {
         Assertions.assertEquals(19.753, imc.getIMC(), 0.001);//testa o calculo do imc
     }
 
-
     @Test
     void testaMinMax(){
         CalcIMC imc = new CalcIMC(1.80,64);
