@@ -32,6 +32,7 @@ public class CalcIMC {
         return (25 * (altura*altura)); //retorna a altura maxima saudavel para a altura
     }
 
+
     public double getAlturaRecomendada(){
         return (Math.sqrt(peso/22)); //retorna a altura recomendada para o peso
     }
